@@ -1,0 +1,147 @@
+.linkCardChar {
+    text-decoration: none;
+}
+
+.characterMainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+}
+
+.characterCardContainer {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: rgb(60, 62, 68);
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.prev-next-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.prev-next-buttons button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+    background-color: rgb(60, 62, 68);
+    border: solid 1px;
+    color: white
+}
+
+.prev-next-buttons button i {
+    font-size: 18px;
+}
+
+.prev-next-buttons button:hover {
+    background-color: rgba(136, 255, 146, 0.897);
+}
+
+.prev-next-buttons span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    background-color: rgb(60, 62, 68);
+    border: solid 1px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: white
+}
+
+.characterCardContainer:hover {
+    box-shadow: 1px -1px 14px 2px rgba(136, 255, 146, 0.897);
+    ;
+}
+
+.imgCardContainer {
+    border-radius: 10px;
+    margin: 5px;
+    overflow: hidden;
+}
+
+.imgCardContainer img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.h2charCard {
+    font-family: "Roboto", sans-serif;
+    margin: initial;
+    color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.pcharCard {
+    font-family: "Roboto", sans-serif;
+    margin: initial;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    color: rgb(168, 173, 189);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.h3charCard {
+    font-family: "Roboto", sans-serif;
+    margin: initial;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+/* Character Detail */
+
+.charDetailContainer {
+    width: 70%;
+    background-color: rgb(60, 62, 68);
+    margin: auto;
+    border-radius: 30px;
+    display: flex;
+}
+
+.imgCharDetail {
+    padding: 30px;
+    border-radius: 20px;
+    height: 50vh;
+}
+
+.imgCharDetail img {
+    border-radius: 20px;
+    object-fit: contain;
+    height: 100%;
+}
+
+.infoCharacterContainer {
+    font-family: "Roboto", sans-serif;
+    margin: initial;
+    color: white;
+    padding: 30px;
+    padding-bottom: 20px;
+}
+
+.infoCharacterContainer ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.infoCharacterContainer ul li {
+    font-size: 25px;
+    padding: 5px;
+    color: rgb(168, 173, 189);
+}
+
+.infoCharacterContainer span {
+    font-size: 25px;
+    color: white;
+}

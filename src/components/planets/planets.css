@@ -1,0 +1,32 @@
+.planetMainContainer {
+    width: 50%;
+    margin: auto;
+}
+
+.cardPlanetContainer {
+    background-color: rgb(60, 62, 68);
+    border-radius: 8px;
+}
+
+.cardPlanetContainer:hover {
+    box-shadow: 1px -1px 14px 2px rgb(171 211 236);
+}
+
+.cardPlanetContainer h1 {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    border-bottom: solid 2px rgba(136, 255, 146, 0.897);
+}
+
+.cardPlanetContainer ul {
+    font-family: "Roboto", sans-serif;
+    padding: 10px 20px;
+    list-style: none;
+    color: white;
+}
+
+.cardPlanetContainer ul li {
+    margin-bottom: 6px;
+}
